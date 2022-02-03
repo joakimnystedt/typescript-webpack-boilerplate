@@ -5,8 +5,8 @@
   "main": "bundle.js",
   "scripts": {
     "start": "webpack serve --open",
-    "build": "webpack build",
-    "build-prod": "webpack build --mode production"
+    "build-dev": "webpack build",
+    "build-prd": "webpack build --mode production"
   },
   "keywords": [],
   "author": "Joakim Nystedt",
