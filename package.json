@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "typescript-webpack-boilerplate",
   "version": "1.0.0",
   "description": "Simple boilerplate with typescript and webpack",
   "main": "bundle.js",
