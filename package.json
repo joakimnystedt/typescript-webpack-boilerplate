@@ -1,7 +1,7 @@
 {
-  "name": "spkn",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple boilerplate with typescript and webpack",
   "main": "bundle.js",
   "scripts": {
     "start": "webpack serve --open",
@@ -9,7 +9,7 @@
     "build-prod": "webpack build --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joakim Nystedt",
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",

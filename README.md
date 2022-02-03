@@ -1,1 +1,3 @@
-# ts-webpack-boilerplate
+# typescript-webpack-boilerplate
+
+Boilerplate for typescript with webpack

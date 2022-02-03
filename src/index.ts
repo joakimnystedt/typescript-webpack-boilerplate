@@ -1,6 +1,7 @@
-import boiler from './services/boilService'
+import { getPersons, getMergedAges } from './services/exampleService'
 
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed')
-    console.log(boiler())
+    console.log(getPersons, 'All persons in an array')
+    console.log(getMergedAges, 'All ages merged!')
 })
