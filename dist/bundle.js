@@ -1,1 +1,0 @@
-(()=>{"use strict";window.addEventListener("DOMContentLoaded",(function(o){console.log("DOM fully loaded and parsed"),console.log([{one:"Boilerz",two:"Bailerz"},{one:"Beilerz",two:"Builerz"}].map((function(o){var e,n;return{one:null!==(e=o.one)&&void 0!==e?e:"",two:null!==(n=o.two)&&void 0!==n?n:""}})))}))})();
