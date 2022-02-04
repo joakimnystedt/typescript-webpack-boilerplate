@@ -1,0 +1,21 @@
+@import './utils.scss';
+
+html {
+  background-color: $color-independence;
+  color: $color-silk;
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  a {
+    color: $color-wildblue;
+    }
+  main {
+      > div {
+        background-color: $color-umber;
+        margin: 20vh 20vw;
+        width: 40vw;
+        height: 40vh;
+        padding: 10vh 10vw;        
+      }
+  }
+}
+

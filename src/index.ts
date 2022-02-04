@@ -1,3 +1,4 @@
+import './assets/styles.scss'
 import { getPersons, getMergedAges } from './services/exampleService'
 
 window.addEventListener('DOMContentLoaded', (event) => {
