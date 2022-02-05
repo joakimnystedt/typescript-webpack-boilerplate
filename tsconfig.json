@@ -1,11 +1,16 @@
 {
     "compilerOptions": {
-        "outDir": "./dist/",
-        "noImplicitAny": true,
-        "sourceMap": false,
-        "module": "es2022",
-        "target": "es5",
-        "allowJs": true,
-        "moduleResolution": "node"
+        "target": "es2017",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "declaration": true,
+        "outDir": "./dist",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "forceConsistentCasingInFileNames": true
     }
 }
