@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "description": "Simple boilerplate with typescript and webpack",
     "main": "bundle.js",
-    "sideEffects": false,
     "scripts": {
         "start": "webpack serve --open",
         "build-dev": "webpack build",
