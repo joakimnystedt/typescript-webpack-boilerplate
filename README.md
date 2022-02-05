@@ -12,6 +12,7 @@ Very simple boilerplate for typescript with webpack. Try to use as few npm packa
 ```
 "devDependencies": {
   "css-loader": "^6.6.0",
+  "html-loader": "^3.1.0",
   "html-webpack-plugin": "^5.5.0",
   "node-sass": "^7.0.1",
   "sass-loader": "^12.4.0",
