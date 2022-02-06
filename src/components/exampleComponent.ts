@@ -13,7 +13,7 @@ export default class exampleComponent extends HTMLElement {
         modifiedTemplate = modifiedTemplate.replace('{title}', 'example list')
 
         // modify html
-        let htmlTemplate = stringToHTML(modifiedTemplate)
+        let htmlTemplate = stringToHTML(this, modifiedTemplate)
         let ul = htmlTemplate.querySelector('ul')
 
         getPersons.map(function (item) {

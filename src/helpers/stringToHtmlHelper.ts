@@ -1,5 +1,4 @@
-export const stringToHTML = function (str: string) {
-    let parser = new DOMParser()
-    let doc = parser.parseFromString(str, 'text/html')
-    return doc.body
+export const stringToHTML = function (el: HTMLElement, str: string) {
+    el.innerHTML = str
+    return el
 }
